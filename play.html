@@ -5,12 +5,13 @@
 	<!-- Start Meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="description" content="Bioven - Business HTML 5 Template" />
-	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template" />
+
+    <meta name="robots" content="noindex,nofollow" />
+
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>BasketBall Random - Basket Random</title>
+	<title>Play BasketBall Random - Basket Random</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<!-- Bootstrap CSS -->
@@ -40,7 +41,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-75YXFNWRJJ');
-</script>  
+</script>
+  
 </head>
 
 <body>
@@ -110,52 +112,34 @@
 
 
 
-	<!-- About Area Start -->
-	<div style="margin-top: -120px;" class="about__area section-padding">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-xl-6 col-lg-5 lg-mb-40">
-					<div class="about__area-left wow fadeInUp" data-wow-delay="1s">
-						<div class="about__area-left-image mr-50 ml-50 mb-80">
-							<img src="assets/img/about-1.jpg" alt="">
-							<div class="about__area-left-image-small-img">
-								<img src="assets/img/about-2.jpg" alt="">
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="col-xl-6 col-lg-7">
-					<div class="about__area-right wow fadeInUp" data-wow-delay="1.5s">
-						<div class="about__area-right-content">
-							<span class="section-top mb-15">Basket Random</span>
-							<h2 class="mb-40">Play Basketball Random Unblocked</h2>
-							<p class="mb-25">Basketball Random: Unblocked school game. Safe for kids, free, no ads. Aim, shoot and score in this exciting basketball challenge.</p>
-						</div>
-						<div class="about__area-right-list mb-40">
-							<div class="row">
-								<div class="col-sm-6 mb-15">
-									<p><i class="flaticon-check"></i>Unblocked at School</p>
-								</div>
-								<div class="col-sm-6 mb-15">
-									<p><i class="flaticon-check"></i>Free, no ads</p>
-								</div>
-						
-							</div>
-						</div>
-						<div class="about__area-right-bottom pt-40">
-							<div class="row align-items-center">
-								<div class="col-sm-6 sm-mb-20">
-									<a class="theme-btn" href="play.html">PLAY NOW <i class="flaticon-arrow-right"></i></a>
-								</div>
-								
-							</div>									
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- About Area End -->
+
+  
+<!-- iframe Game -->
+<div class="container" style="padding-top:10px; padding-bottom:0px" align="Center">
+  <iframe class="gm-iframe" id="gm-area" src="https://topvazstore.github.io/g8/basket-random/" width="840" height="540" scrolling="none" frameborder="0" allowfullscreen></iframe>
+   <div class="container" align="Center"> 
+      <button  class="theme-btn" onclick="openFullscreen();">FullScreen</button>
+
+
+   </div>
+
+<script>
+var elem = document.getElementById("gm-area");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+
+</div>
+<!-- End iframe Game -->
+
 
 
 
